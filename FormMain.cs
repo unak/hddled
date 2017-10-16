@@ -44,21 +44,21 @@ namespace hddled
 				var write = writeCounter.NextValue();
 
 				//notifyIcon.Text = string.Format("Read: {0}, Write: {1}", read, write);
-				if (read == 0 && write == 0)
+				if (read > 0 && write > 0)
 				{
-					notifyIcon.Icon = Properties.Resources.ICON_LED0;
-				}
-				else if (read > 0 && write == 0)
-				{
-					notifyIcon.Icon = Properties.Resources.ICON_LED1;
+					notifyIcon.Icon = Properties.Resources.ICON_LED3;
 				}
 				else if (write > 0)
 				{
 					notifyIcon.Icon = Properties.Resources.ICON_LED2;
 				}
+				else if (read > 0)
+				{
+					notifyIcon.Icon = Properties.Resources.ICON_LED1;
+				}
 				else
 				{
-					notifyIcon.Icon = Properties.Resources.ICON_LED3;
+					notifyIcon.Icon = Properties.Resources.ICON_LED0;
 				}
 			}
 		}
