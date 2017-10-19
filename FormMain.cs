@@ -9,6 +9,12 @@ namespace hddled
 	{
 		static private PerformanceCounter readCounter;
 		static private PerformanceCounter writeCounter;
+		static Icon[] icons = {
+			Properties.Resources.ICON_LED0,
+			Properties.Resources.ICON_LED1,
+			Properties.Resources.ICON_LED2,
+			Properties.Resources.ICON_LED3,
+		};
 
 		public FormMain()
 		{
@@ -44,22 +50,7 @@ namespace hddled
 				var write = writeCounter.NextValue();
 
 				//notifyIcon.Text = string.Format("Read: {0}, Write: {1}", read, write);
-				if (read > 0 && write > 0)
-				{
-					notifyIcon.Icon = Properties.Resources.ICON_LED3;
-				}
-				else if (write > 0)
-				{
-					notifyIcon.Icon = Properties.Resources.ICON_LED2;
-				}
-				else if (read > 0)
-				{
-					notifyIcon.Icon = Properties.Resources.ICON_LED1;
-				}
-				else
-				{
-					notifyIcon.Icon = Properties.Resources.ICON_LED0;
-				}
+				notifyIcon.Icon = icons[(read > 0 ? 1 : 0) + (write > 0 ? 2 : 0)];
 			}
 		}
 	}
