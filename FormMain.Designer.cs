@@ -40,7 +40,6 @@
 			// notifyIcon
 			// 
 			this.notifyIcon.ContextMenuStrip = this.menuNotifyIcon;
-			this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
 			this.notifyIcon.Text = "HDDLed";
 			this.notifyIcon.Visible = true;
 			// 
@@ -67,6 +66,7 @@
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(247, 82);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "FormMain";
 			this.Text = "HDDLed";
 			this.menuNotifyIcon.ResumeLayout(false);

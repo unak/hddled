@@ -93,6 +93,46 @@ namespace hddled.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
+        internal static System.Drawing.Icon ICON_LED2_0 {
+            get {
+                object obj = ResourceManager.GetObject("ICON_LED2_0", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon ICON_LED2_1 {
+            get {
+                object obj = ResourceManager.GetObject("ICON_LED2_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon ICON_LED2_2 {
+            get {
+                object obj = ResourceManager.GetObject("ICON_LED2_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon ICON_LED2_3 {
+            get {
+                object obj = ResourceManager.GetObject("ICON_LED2_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
         internal static System.Drawing.Icon ICON_LED3 {
             get {
                 object obj = ResourceManager.GetObject("ICON_LED3", resourceCulture);

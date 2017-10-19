@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\hddled21.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -85,9 +88,14 @@
     <None Include="Resources\hddled2.ico" />
     <None Include="Resources\hddled1.ico" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\hddled0.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\hddled20.ico" />
+    <Content Include="Resources\hddled21.ico" />
+    <Content Include="Resources\hddled22.ico" />
+    <Content Include="Resources\hddled23.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -10,16 +10,17 @@ namespace hddled
 		static private PerformanceCounter readCounter;
 		static private PerformanceCounter writeCounter;
 		static Icon[] icons = {
-			Properties.Resources.ICON_LED0,
-			Properties.Resources.ICON_LED1,
-			Properties.Resources.ICON_LED2,
-			Properties.Resources.ICON_LED3,
+			Properties.Resources.ICON_LED2_0,
+			Properties.Resources.ICON_LED2_1,
+			Properties.Resources.ICON_LED2_2,
+			Properties.Resources.ICON_LED2_3,
 		};
 
 		public FormMain()
 		{
 			InitializeComponent();
 
+			notifyIcon.Icon = icons[0];
 			readCounter = new PerformanceCounter("PhysicalDisk", "Disk Read Bytes/sec", "_Total");
 			writeCounter = new PerformanceCounter("PhysicalDisk", "Disk Write Bytes/sec", "_Total");
 			timer.Start();

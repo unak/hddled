@@ -127,6 +127,18 @@
   <data name="ICON_LED2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hddled2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ICON_LED2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hddled20.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICON_LED2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hddled21.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICON_LED2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hddled22.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICON_LED2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hddled23.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ICON_LED3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hddled3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
